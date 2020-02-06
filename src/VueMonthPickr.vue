@@ -52,7 +52,7 @@
 
 <script>
     export default {
-        name      : "month-pickr",
+        name      : "vue-month-pickr",
         directives: {
 
             clickAway: {
