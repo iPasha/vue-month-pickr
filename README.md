@@ -1,3 +1,6 @@
+[![NPM version](https://img.shields.io/npm/v/vue-month-pickr.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-month-pickr)
+[![NPM downloads](https://img.shields.io/npm/dm/vue-month-pickr.svg?style=for-the-badge)](https://www.npmjs.com/package/vue-month-pickr)
+
 # vue-month-pickr
 
 ✨ Simple vue component to select month and year ✨
@@ -11,7 +14,7 @@
 ## Use
 
 ````javascript
-import VueMonthPickr from 'VueMonthPickr.vue';
+import VueMonthPickr from 'vue-month-pickr';
 
 components: {
     VueMonthPickr

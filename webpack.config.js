@@ -15,12 +15,12 @@ const {VueLoaderPlugin} = require('vue-loader');
 module.exports = {
     devtool  : "source-map",
     entry    : {
-        "vue-month-pickr.min": paths.src + '/index.js',
-        "demo"               : paths.demo + '/index.js',
+        "vue-month-pickr": paths.src + '/index.js',
+        "demo"           : paths.demo + '/index.js',
     },
     output   : {
-        path: path.join(__dirname, 'dist'),
-        filename: '[name].min.js',
+        path    : path.join(__dirname, 'dist'),
+        filename: '[name].js',
     },
     devServer: {
         contentBase: paths.demo,

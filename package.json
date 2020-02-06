@@ -1,6 +1,6 @@
 {
   "name": "vue-month-pickr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Vuejs component for picking month (and year). ",
   "author": "Pavel Oparin <pasha_oparin@mail.ru>",
   "license": "MIT",
