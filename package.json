@@ -1,0 +1,67 @@
+{
+  "name": "vue-month-pickr",
+  "version": "1.0.0",
+  "description": "Vuejs component for picking month (and year). ",
+  "author": "Pavel Oparin <pasha_oparin@mail.ru>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --host 0.0.0.0 --mode development --open",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iPasha/vue-month-pickr.git"
+  },
+  "keywords": [
+    "vue",
+    "vuejs",
+    "component"
+  ],
+  "bugs": {
+    "url": "https://github.com/iPasha/vue-month-pickr/issues"
+  },
+  "homepage": "https://github.com/iPasha/vue-month-pickr#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "autoprefixer": "^9.7.3",
+    "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "sass": "^1.23.6",
+    "sass-loader": "^7.3.1",
+    "clean-webpack-plugin": "^0.1.19",
+    "copy-webpack-plugin": "^5.1.1",
+    "css-loader": "^1.0.1",
+    "postcss-loader": "^3.0.0",
+    "mini-css-extract-plugin": "^0.4.5",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.41.3",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.9.0",
+    "webpack-stream": "^5.2.1"
+  },
+  "dependencies": {},
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 versions",
+    "not ie <= 8"
+  ],
+  "files": [
+    "dist/*.css",
+    "dist/*.map",
+    "dist/*.js",
+    "src/*"
+  ]
+}
