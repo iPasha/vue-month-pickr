@@ -25,6 +25,22 @@ components: {
 <vue-month-pickr :input-id="inputId" :input-class-name="'form-control'" :default-month="11" :default-year="2019" @choose-date="onDateUpdate"></vue-month-pickr>
 ````
 
+### Props 
+
+| Prop                          | Type            | Default                    | Description                              |
+|-------------------------------|-----------------|----------------------------|------------------------------------------|
+| input-id                      | String          |                            | "id" attribute for input tag.	          |
+| input-class-name              | String	      |                            | class attribute for input tag.           |
+| default-month                 | Integer         | new Date().getMonth()      | The default month of the month picker.   |
+| default-year                  | Integer         | new Date().getFullYear()   | The default year of the month picker.    |
+| months                        | Array           | \['January', ... ]         | Array of months in english               |
+
+### Events
+
+| Event                         | Returns         | Description                                                |
+|-------------------------------|-----------------|------------------------------------------------------------|
+| @choose-date                  | Object    	  | Fires when month selected. Returns selected month and year |
+
 
 ## License
 
